@@ -7,7 +7,7 @@ def fizzbuzz(num)
   end
   if num % 5 == 0
     phrase += "Buzz"
-  elsif phrase == ""
+  if phrase == ""
     return nil
   end
   return phrase
